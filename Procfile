@@ -1,1 +1,1 @@
-web: uvicorn app.main:app
+web: uvicorn app.main:app runserver 0.0.0.0:5000
