@@ -27,4 +27,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to myAPI!"}
+    return {"Welcome to UpPost - your friendly Social Media API!"}
